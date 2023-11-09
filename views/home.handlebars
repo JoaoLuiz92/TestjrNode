@@ -1,11 +1,13 @@
 <h1>Lista de personagens de Ricky e Morty</h1>
 <ul>
     {{#each reading}}
-        <div>
-            <h2>Nome:{{this.name}}</h2>
-            <p>Genêro:{{this.gender}}<p>
-            <p>Status:{{this.status}}</p>
-
+        <div class="container">
+            <h2 class="img"><img src="{{this.image}}"></h2>
+            <div class="infos">
+                <h3>Nome: {{this.name}}</h3>
+                <p>Genêro: {{this.gender}}<p>
+                <p>Status: {{this.status}}</p>
+            </div>
 
         </div>
     {{/each}}

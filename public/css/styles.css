@@ -8,3 +8,15 @@ body {
     color: #dfdfdf;
   }
   
+  /*img {
+    display: flex;
+  }*/
+
+  .container {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .infos {
+    margin: 5px;
+  }
