@@ -1,0 +1,18 @@
+{
+  "name": "testedevnode",
+  "version": "1.0.0",
+  "description": "desenvolvimento feito para teste de entrevista para desenvolvedor node.js nivel junior",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js localhost 3000"
+    
+  },
+  "author": "joao luiz da rosa junior",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "nodemon": "^3.0.1"
+  }
+}
